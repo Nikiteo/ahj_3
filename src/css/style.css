@@ -1,0 +1,30 @@
+.game_field {
+    position: absolute;
+
+    width: 500px;
+    height: 500px;
+
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+
+    transform: translate(-50%, -50%)
+}
+
+.field_hole {
+  width: 120px;
+  height: 120px;
+  border: 1px solid #333;
+}
+
+.field_goblin {
+    border-radius: 50%;
+    background: no-repeat center/100%  url('../../src/img/goblin.png');
+    width: 120px;
+    height: 120px;
+    cursor: url("../img/hummer.png"), pointer;
+}
+
+.hide {
+  display: none;
+}
